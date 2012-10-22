@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:fb="http://rdf.freebase.com/ns/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml/vocab#"
+>
+  <fb:tv.tv_series_season rdf:about="http://rdf.freebase.com/ns/en.seinfeld_season_2">
+    <fb:tv.tv_series_season.series rdf:resource="http://rdf.freebase.com/ns/en.seinfeld"/>
+    <fb:common.topic.image rdf:resource="http://rdf.freebase.com/ns/m.041d6r5"/>
+    <cc:attributionName>Source: Freebase - The World's database</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.freebase.com/view/en/seinfeld_season_2"/>
+    <fb:type.object.key>
+      <rdf:Description>
+        <fb:type.value.value>Seinfeld_Season_2</fb:type.value.value>
+        <fb:type.key.namespace rdf:resource="http://rdf.freebase.com/ns/wikipedia.en"/>
+      </rdf:Description>
+    </fb:type.object.key>
+    <fb:type.object.key>
+      <rdf:Description>
+        <fb:type.value.value>Saison_2_de_Seinfeld</fb:type.value.value>
+        <fb:type.key.namespace rdf:resource="http://rdf.freebase.com/ns/wikipedia.fr"/>
+      </rdf:Description>
+    </fb:type.object.key>
+    <fb:type.object.key>
+      <rdf:Description>
+        <fb:type.value.value>The_Bet_$0028unaired_Seinfeld_episode$0029</fb:type.value.value>
+        <fb:type.key.namespace rdf:resource="http://rdf.freebase.com/ns/wikipedia.en"/>
+      </rdf:Description>
+    </fb:type.object.key>
+    <fb:type.object.key>
+      <rdf:Description>
+        <fb:type.value.value>Saison_2_de_Seinfeld</fb:type.value.value>
+        <fb:type.key.namespace rdf:resource="http://rdf.freebase.com/ns/wikipedia.fr_title"/>
+      </rdf:Description>
+    </fb:type.object.key>
+    <fb:type.object.key>
+      <rdf:Description>
+        <fb:type.value.value>The_Heart_Attack_$0028Seinfeld_episode$0029</fb:type.value.value>
+        <fb:type.key.namespace rdf:resource="http://rdf.freebase.com/ns/wikipedia.en"/>
+      </rdf:Description>
+    </fb:type.object.key>
+    <fb:type.object.key>
+      <rdf:Description>
+        <fb:type.value.value>7879893</fb:type.value.value>
+        <fb:type.key.namespace rdf:resource="http://rdf.freebase.com/ns/wikipedia.en_id"/>
+      </rdf:Description>
+    </fb:type.object.key>
+    <fb:type.object.key>
+      <rdf:Description>
+        <fb:type.value.value>00a6-ec52</fb:type.value.value>
+        <fb:type.key.namespace rdf:resource="http://rdf.freebase.com/ns/user.avh.ellerdale"/>
+      </rdf:Description>
+    </fb:type.object.key>
+    <fb:type.object.key>
+      <rdf:Description>
+        <fb:type.value.value>Seinfeld_$0028season_2$0029</fb:type.value.value>
+        <fb:type.key.namespace rdf:resource="http://rdf.freebase.com/ns/wikipedia.en_title"/>
+      </rdf:Description>
+    </fb:type.object.key>
+    <fb:type.object.key>
+      <rdf:Description>
+        <fb:type.value.value>The_Busboy_$0028Seinfeld_episode$0029</fb:type.value.value>
+        <fb:type.key.namespace rdf:resource="http://rdf.freebase.com/ns/wikipedia.en"/>
+      </rdf:Description>
+    </fb:type.object.key>
+    <fb:type.object.key>
+      <rdf:Description>
+        <fb:type.value.value>Seinfeld_$0028season_2$0029</fb:type.value.value>
+        <fb:type.key.namespace rdf:resource="http://rdf.freebase.com/ns/wikipedia.en"/>
+      </rdf:Description>
+    </fb:type.object.key>
+    <fb:type.object.key>
+      <rdf:Description>
+        <fb:type.value.value>The_Bet_$0028Seinfeld$0029</fb:type.value.value>
+        <fb:type.key.namespace rdf:resource="http://rdf.freebase.com/ns/wikipedia.en"/>
+      </rdf:Description>
+    </fb:type.object.key>
+    <fb:type.object.key>
+      <rdf:Description>
+        <fb:type.value.value>658932</fb:type.value.value>
+        <fb:type.key.namespace rdf:resource="http://rdf.freebase.com/ns/wikipedia.fr_id"/>
+      </rdf:Description>
+    </fb:type.object.key>
+    <fb:type.object.key>
+      <rdf:Description>
+        <fb:type.value.value>seinfeld_season_2</fb:type.value.value>
+        <fb:type.key.namespace rdf:resource="http://rdf.freebase.com/ns/en"/>
+      </rdf:Description>
+    </fb:type.object.key>
+    <fb:type.object.key>
+      <rdf:Description>
+        <fb:type.value.value>The_Bet_$0028Unaired_Seinfeld_Episode$0029</fb:type.value.value>
+        <fb:type.key.namespace rdf:resource="http://rdf.freebase.com/ns/wikipedia.en"/>
+      </rdf:Description>
+    </fb:type.object.key>
+    <fb:type.object.key>
+      <rdf:Description>
+        <fb:type.value.value>The_Pony_Remark_$0028Seinfeld_episode$0029</fb:type.value.value>
+        <fb:type.key.namespace rdf:resource="http://rdf.freebase.com/ns/wikipedia.en"/>
+      </rdf:Description>
+    </fb:type.object.key>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Bet_(unaired_Seinfeld_episode)"/>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Seinfeld_Season_2"/>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Bet_(Unaired_Seinfeld_Episode)"/>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Seinfeld_(season_2)"/>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Pony_Remark_(Seinfeld_episode)"/>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Busboy_(Seinfeld_episode)"/>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Heart_Attack_(Seinfeld_episode)"/>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Bet_(Seinfeld)"/>
+    <fb:tv.tv_series_season.to>1991-06-26</fb:tv.tv_series_season.to>
+    <fb:tv.tv_series_season.from>1991-01-23</fb:tv.tv_series_season.from>
+    <fb:common.topic.article rdf:resource="http://rdf.freebase.com/ns/m.026hc36"/>
+    <fb:tv.tv_series_season.number_of_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#long">12</fb:tv.tv_series_season.number_of_episodes>
+    <rdf:type rdf:resource="http://rdf.freebase.com/ns/common.topic"/>
+    <fb:type.object.name xml:lang="id">Seinfeld</fb:type.object.name>
+    <fb:type.object.name xml:lang="ru">Сейнфелд (телесериал)</fb:type.object.name>
+    <fb:type.object.name xml:lang="ja">となりのサインフェルド</fb:type.object.name>
+    <fb:type.object.name xml:lang="en">Seinfeld - Season 2</fb:type.object.name>
+    <fb:type.object.name xml:lang="ro">Seinfeld</fb:type.object.name>
+    <fb:type.object.name xml:lang="he">סיינפלד</fb:type.object.name>
+    <fb:type.object.name xml:lang="fr">Saison 2 de Seinfeld</fb:type.object.name>
+    <fb:type.object.name xml:lang="hu">Seinfeld</fb:type.object.name>
+    <xhtml:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
+    <fb:tv.tv_series_season.season_number rdf:datatype="http://www.w3.org/2001/XMLSchema#long">2</fb:tv.tv_series_season.season_number>
+  </fb:tv.tv_series_season>
+</rdf:RDF>
+

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:fb="http://rdf.freebase.com/ns/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml/vocab#"
+>
+  <fb:common.topic rdf:about="http://rdf.freebase.com/ns/en.seinfeld_season_8">
+    <rdf:type rdf:resource="http://rdf.freebase.com/ns/tv.tv_series_season"/>
+    <fb:tv.tv_series_season.episodes rdf:resource="http://rdf.freebase.com/ns/en.the_yada_yada"/>
+    <fb:tv.tv_series_season.episodes rdf:resource="http://rdf.freebase.com/ns/en.the_van_buren_boys"/>
+    <fb:tv.tv_series_season.episodes rdf:resource="http://rdf.freebase.com/ns/en.the_abstinence"/>
+    <fb:tv.tv_series_season.episodes rdf:resource="http://rdf.freebase.com/ns/m.0d245q"/>
+    <fb:tv.tv_series_season.episodes rdf:resource="http://rdf.freebase.com/ns/en.the_little_kicks"/>
+    <fb:tv.tv_series_season.episodes rdf:resource="http://rdf.freebase.com/ns/en.the_andrea_doria"/>
+    <fb:tv.tv_series_season.episodes rdf:resource="http://rdf.freebase.com/ns/m.056966"/>
+    <fb:tv.tv_series_season.episodes rdf:resource="http://rdf.freebase.com/ns/en.the_muffin_tops"/>
+    <fb:tv.tv_series_season.episodes rdf:resource="http://rdf.freebase.com/ns/en.the_susie"/>
+    <fb:tv.tv_series_season.episodes rdf:resource="http://rdf.freebase.com/ns/en.the_nap"/>
+    <fb:tv.tv_series_season.episodes rdf:resource="http://rdf.freebase.com/ns/en.the_bizarro_jerry"/>
+    <fb:tv.tv_series_season.episodes rdf:resource="http://rdf.freebase.com/ns/en.the_soul_mate"/>
+    <fb:tv.tv_series_season.episodes rdf:resource="http://rdf.freebase.com/ns/en.the_chicken_roaster"/>
+    <fb:tv.tv_series_season.episodes rdf:resource="http://rdf.freebase.com/ns/en.the_checks"/>
+    <fb:tv.tv_series_season.episodes rdf:resource="http://rdf.freebase.com/ns/m.0d6wgy"/>
+    <fb:tv.tv_series_season.episodes rdf:resource="http://rdf.freebase.com/ns/en.the_money"/>
+    <fb:tv.tv_series_season.episodes rdf:resource="http://rdf.freebase.com/ns/m.0d23x9"/>
+    <fb:tv.tv_series_season.episodes rdf:resource="http://rdf.freebase.com/ns/en.the_fatigues"/>
+    <fb:tv.tv_series_season.episodes rdf:resource="http://rdf.freebase.com/ns/en.the_pothole"/>
+    <fb:tv.tv_series_season.episodes rdf:resource="http://rdf.freebase.com/ns/en.the_little_jerry"/>
+    <fb:tv.tv_series_season.episodes rdf:resource="http://rdf.freebase.com/ns/en.the_summer_of_george"/>
+    <fb:tv.tv_series_season.episodes rdf:resource="http://rdf.freebase.com/ns/m.0d244p"/>
+    <fb:type.object.name xml:lang="hu">Seinfeld</fb:type.object.name>
+    <fb:type.object.name xml:lang="ru">Сейнфелд (телесериал)</fb:type.object.name>
+    <fb:type.object.name xml:lang="ja">となりのサインフェルド</fb:type.object.name>
+    <fb:type.object.name xml:lang="ro">Seinfeld</fb:type.object.name>
+    <fb:type.object.name xml:lang="he">סיינפלד</fb:type.object.name>
+    <fb:type.object.name xml:lang="id">Seinfeld</fb:type.object.name>
+    <fb:type.object.name xml:lang="en">Seinfeld - Season 8</fb:type.object.name>
+    <fb:common.topic.article rdf:resource="http://rdf.freebase.com/ns/m.026myh0"/>
+    <fb:common.topic.image rdf:resource="http://rdf.freebase.com/ns/m.041c4kd"/>
+    <cc:attributionURL rdf:resource="http://www.freebase.com/view/en/seinfeld_season_8"/>
+    <xhtml:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
+    <cc:attributionName>Source: Freebase - The World's database</cc:attributionName>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Seinfeld_(season_8)"/>
+    <fb:tv.tv_series_season.season_number rdf:datatype="http://www.w3.org/2001/XMLSchema#long">8</fb:tv.tv_series_season.season_number>
+    <fb:common.topic.alias xml:lang="en">Seinfeld Season 8</fb:common.topic.alias>
+    <fb:tv.tv_series_season.to>1997-05-15</fb:tv.tv_series_season.to>
+    <fb:type.object.key>
+      <rdf:Description>
+        <fb:type.key.namespace rdf:resource="http://rdf.freebase.com/ns/wikipedia.en_id"/>
+        <fb:type.value.value>7997816</fb:type.value.value>
+      </rdf:Description>
+    </fb:type.object.key>
+    <fb:type.object.key>
+      <rdf:Description>
+        <fb:type.key.namespace rdf:resource="http://rdf.freebase.com/ns/wikipedia.en"/>
+        <fb:type.value.value>Seinfeld_$0028season_8$0029</fb:type.value.value>
+      </rdf:Description>
+    </fb:type.object.key>
+    <fb:type.object.key>
+      <rdf:Description>
+        <fb:type.key.namespace rdf:resource="http://rdf.freebase.com/ns/authority.thetvdb.season"/>
+        <fb:type.value.value>16119</fb:type.value.value>
+      </rdf:Description>
+    </fb:type.object.key>
+    <fb:type.object.key>
+      <rdf:Description>
+        <fb:type.key.namespace rdf:resource="http://rdf.freebase.com/ns/authority.netflix.api"/>
+        <fb:type.value.value>http$003A$002F$002Fapi$002Enetflix$002Ecom$002Fcatalog$002Ftitles$002Fseries$002F70002726$002Fseasons$002F70059064</fb:type.value.value>
+      </rdf:Description>
+    </fb:type.object.key>
+    <fb:type.object.key>
+      <rdf:Description>
+        <fb:type.key.namespace rdf:resource="http://rdf.freebase.com/ns/en"/>
+        <fb:type.value.value>seinfeld_season_8</fb:type.value.value>
+      </rdf:Description>
+    </fb:type.object.key>
+    <fb:type.object.key>
+      <rdf:Description>
+        <fb:type.key.namespace rdf:resource="http://rdf.freebase.com/ns/wikipedia.en_title"/>
+        <fb:type.value.value>Seinfeld_$0028season_8$0029</fb:type.value.value>
+      </rdf:Description>
+    </fb:type.object.key>
+    <fb:type.object.key>
+      <rdf:Description>
+        <fb:type.key.namespace rdf:resource="http://rdf.freebase.com/ns/authority.netflix.tiny"/>
+        <fb:type.value.value>cZuP2</fb:type.value.value>
+      </rdf:Description>
+    </fb:type.object.key>
+    <fb:tv.tv_series_season.from>1996-09-19</fb:tv.tv_series_season.from>
+    <fb:tv.tv_series_season.number_of_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#long">22</fb:tv.tv_series_season.number_of_episodes>
+    <fb:tv.tv_series_season.series rdf:resource="http://rdf.freebase.com/ns/en.seinfeld"/>
+  </fb:common.topic>
+</rdf:RDF>
+
