@@ -1,5 +1,6 @@
 fs = require 'fs'
 pg = require 'pg'
+nameSafe = require './FixName.js'
 ratings = null
 ratingsLoaded = (err, data) ->
   ratings = data.split("\n")
@@ -33,25 +34,25 @@ parseLine = ->
   #lastParen = epID.indexOf(')')
   #seasonNumber = parseInt(epID.substr(4,lastParen))
   rating = parseFloat(rating[1])
-  sql = 'UPDATE episode SET imdbrating='+rating+' WHERE title LIKE \''+episodeDBName(name)+'%\''
+  title = episodeDBName(name)
+  if title is null
+    linesParsed++
+    parseLine()
+    return
+  sql = 'UPDATE episode SET imdbrating='+rating+' WHERE title LIKE \''+title+'%\''
   db.query sql, (err, result) ->
     if result.rowCount is 0
       console.log sql
     linesParsed += 1
     parseLine()
 episodeDBName = (name) ->
+  name = nameSafe.FixName(name)
+  if name is null
+    return null
   name = name.replace("'","''")
-  name = name.replace(/^\s+|\s+$/g, "")
-  name = name.replace('Highlights of a Hundred','The Highlights of 100')
-  name = name.replace(/: (Part [12])/," ($1)")
-  name = name.replace("The Cafe","The Café")
-  name = name.replace("The Chronicle","The Clip Show (Part 1)")
-  name = name.replace("The Fix Up", "The Fix-Up")
-  name = name.replace("The Friars Club", "The Friar''s Club")
-  name = name.replace("The Mom and Pop Store", "The Mom & Pop Store")
-  name = name.replace("The Stakeout", "The Stake Out")
-  name = name.replace("The Strongbox", "The Strong Box")
+  
   return name
 allLinesRead = ->
   console.log 'done'
+  process.exit()
 fs.readFile('data/imdb/seinfeldRatings','utf8', ratingsLoaded)

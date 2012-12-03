@@ -22,8 +22,8 @@ readLine = () ->
   if line.indexOf('"Seinfeld"') isnt -1 or line.indexOf("Seinfeld Chronicle") isnt -1
     add = line + "\n"
     if line.indexOf('The Chronicle') isnt -1
-      add = line.replace('The Chronicle','The Clip Show (Part 1)')+"\n"
-      add += line.replace('The Chronicle','The Clip Show (Part 2)')+"\n"
+      add = line.replace('The Chronicle','The Chronicle (Part 1)')+"\n"
+      add += line.replace('The Chronicle','The Chronicle (Part 2)')+"\n"
     seinfeldLines += add
   linesRead++
   setTimeout(readLine, 1)

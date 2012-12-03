@@ -6,6 +6,7 @@ fs = require 'fs'
 url = require 'url'
 $ = require 'jquery'
 pg = require 'pg'
+nameSafe = require './FixName'
 epListUrl = 'http://en.wikipedia.org/wiki/List_of_Seinfeld_episodes'
 getListHTMLCB = (response) ->
     str = ''
@@ -35,21 +36,25 @@ parseRow = (row) ->
   if isNaN(episodeNumber)
     rowsParsed++
     return 
+  title = $($tds[1]).text()
+  title = title.replace(/The Clip Show/g, "The Chronicle")
+  title = title.replace(/"\[[0-9]+/,'')
+  title = nameSafe.FixName(title)
+  if title isnt null
+    episode = {
+      episodeNumber : parseInt(episodeNumber)
+      seasonNumber : parseInt($($tds[0]).text())
+      title : title
+      directors : createNameArray($($tds[2]).text())
+      writers : createNameArray($($tds[3]).text())
+      date : $($tds[4]).text()
+      productionCode : $($tds[5]).text()
+    }
+    episode.title = episode.title.substr(1,episode.title.length - 2)
+    episode.season = parseInt(episode.productionCode.substr(0,1))
+    episode.productionCode = parseInt(episode.productionCode)
 
-  episode = {
-    episodeNumber : parseInt(episodeNumber)
-    seasonNumber : parseInt($($tds[0]).text())
-    title : $($tds[1]).text()
-    directors : createNameArray($($tds[2]).text())
-    writers : createNameArray($($tds[3]).text())
-    date : $($tds[4]).text()
-    productionCode : $($tds[5]).text()
-  }
-  episode.title = episode.title.substr(1,episode.title.length - 2)
-  episode.season = parseInt(episode.productionCode.substr(0,1))
-  episode.productionCode = parseInt(episode.productionCode)
-
-  episodes.push(episode) 
+    episodes.push(episode) 
   rowsParsed += 1
   if rowsParsed is rows.length - 1
     episodesParsed()

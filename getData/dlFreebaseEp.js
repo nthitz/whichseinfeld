@@ -32,7 +32,7 @@
         return console.log(data);
       });
       response.on("end", function() {
-        fs.writeFile("data/freebase/ep" + episodesLoaded + ".xml", str);
+        fs.writeFile("../data/freebase/ep" + episodesLoaded + ".xml", str);
         episodesLoaded++;
         return loadEpisode();
       });
